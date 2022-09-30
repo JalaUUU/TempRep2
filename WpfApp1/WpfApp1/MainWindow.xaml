@@ -13,5 +13,10 @@
             <DataGridTextColumn Binding="{Binding Birthdate}" Header="Id" Width="auto"/>
             <DataGridTextColumn Binding="{Binding Address}" Header="Id" Width="auto"/>
         </DataGrid.Columns>
+        <!--Бесполезная строка-->
+        <!--Бесполезная строка-->
+        <!--Бесполезная строка-->
+        <!--Бесполезная строка-->
+        <!--Бесполезная строка-->
     </DataGrid>
 </Window>
