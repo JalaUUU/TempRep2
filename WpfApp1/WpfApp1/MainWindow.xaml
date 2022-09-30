@@ -6,7 +6,12 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <DataGrid ItemsSource="{Binding}" AutoGenerateColumns="False">
+        <DataGrid.Columns>
+            <DataGridTextColumn Binding="{Binding Id}" Header="Id" Width="auto"/>
+            <DataGridTextColumn Binding="{Binding Name}" Header="Id" Width="auto"/>
+            <DataGridTextColumn Binding="{Binding Birthdate}" Header="Id" Width="auto"/>
+            <DataGridTextColumn Binding="{Binding Address}" Header="Id" Width="auto"/>
+        </DataGrid.Columns>
+    </DataGrid>
 </Window>
